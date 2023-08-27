@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+c=int(input())
+A=(1/2)*c*(a+b)
+print("{0:.4f}".format(A))
