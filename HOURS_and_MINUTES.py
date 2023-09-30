@@ -1,4 +1,4 @@
-a=int(input())
-h=a//60 
-m=a%60
-print("%d Hour(s) %d Minute(s)"%(h,m))
+n=int(input())
+a=n%60
+b=n//60
+print(f"{b} Hour(s) {a} Minute(s)")
