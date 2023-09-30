@@ -1,3 +1,6 @@
 n=int(input())
-N=(n*(n+1))/2
-print(int(N))
+sum = 0
+while(n > 0):
+    sum=sum+n
+    n=n-1
+print(sum)
